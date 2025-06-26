@@ -17,3 +17,9 @@ In my circuit, I connected the MQ2 gas sensor to the ESP32 board. The sensor was
 Once the hardware connections were made, I wrote a program in Arduino code to read the analog values from the MQ2 sensor and send them to the ThingSpeak platform using Wi-Fi. ThingSpeak is a cloud service that allows IoT devices to send data and view it as a graph in real-time. I created a ThingSpeak account and set up a new channel with one field labeled "Air Quality." I added the API key and channel ID to my code, which helped the ESP32 send sensor data to the correct channel every 5 seconds. I used Wokwi’s simulated Wi-Fi network (Wokwi-GUEST) to run the code, and I was able to see the live gas readings appear on the ThingSpeak dashboard as a line graph.
 
 This task gave me practical experience in building a complete IoT system that collects, processes, and visualizes environmental data. I learned how to simulate sensors, write Arduino code, and use cloud platforms like ThingSpeak. The graph on ThingSpeak showed how gas levels changed over time, and this helped me understand how air quality monitoring works in real life. In actual use, this system can be installed in homes, schools, or offices to continuously monitor pollution and provide early warnings if the air becomes unhealthy. Task 4 helped me understand the real-world importance of air quality systems and how IoT can make such systems smarter and more accessible
+
+OUTPUT
+
+![Image](https://github.com/user-attachments/assets/706e45e2-bda3-47dd-bffe-5ca7e1f6326d)
+
+![Image](https://github.com/user-attachments/assets/e5db1513-472d-497d-87dd-2b36ca0532dd)
